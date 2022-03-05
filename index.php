@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7Learn Exporter</title>
+    <title>Exporter</title>
     <style>
         html,
         body {
@@ -13,7 +13,7 @@
         }
         
         body {
-            background: #007bec;
+            background: #040a2a;
             color: #fff;
             font-size: 1.5em;
             font-weight: 400;
@@ -85,12 +85,12 @@
             <input type="text" name="title" placeholder="Title Here">
             <textarea name="content" placeholder="Content Here" style="height: 100px"></textarea>
             <select name="format">
-                <option value="Text">Text File</option>
-                <option value="Pdf">Pdf Format</option>
-                <option value="Json">Json File</option>
-                <option value="Csv">Csv File</option>
+                <option value="Text">Text</option>
+                <option value="Pdf">PDF </option>
+                <option value="Json">JSON </option>
+                <option value="Csv">CSV </option>
             </select>
-            <button type='submit'>Export to File</button>
+            <button type='submit'>Export</button>
         </form>
     </div>
 </body>
