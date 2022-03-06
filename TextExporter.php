@@ -1,5 +1,4 @@
 <?php
-namespace Exporter;
 
 class TextExporter extends Exporter{
     protected $format = '.txt';
