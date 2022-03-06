@@ -1,5 +1,4 @@
 <?php
-namespace Exporter;
 
 interface Exportable{
     public function export();

@@ -1,5 +1,4 @@
 <?php
-namespace Exporter;
 
 class JsonExporter extends Exporter{
     protected $format = '.json';

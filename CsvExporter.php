@@ -1,5 +1,4 @@
 <?php
-namespace Exporter;
 
 class CsvExporter extends Exporter{
     protected $format = '.csv';
